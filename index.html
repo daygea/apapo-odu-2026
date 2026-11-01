@@ -6,22 +6,102 @@
 <title>Apapo Odu Ifa Initiates</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <style>
+  /* ---------- shell / background ---------- */
+  html, body { -webkit-text-size-adjust: 100%; }
+
   body {
-    padding: 20px; margin: 0; min-height: 100vh;
-    background-image: url('img/620088.jpg');
-    background-size: cover; background-position: center;
-    background-repeat: no-repeat; background-attachment: fixed;
+    margin: 0;
+    padding: 12px;
+    min-height: 100vh;
+    min-height: 100dvh;
     color: #fff;
+    background-image: url('img/620088.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
   }
+  @media (min-width: 768px) {
+    body { padding: 20px; }
+  }
+
   .hidden { display: none; }
+  .up      { text-transform: uppercase; }
+
+  /* ---------- hero heading ---------- */
+  @media (max-width: 575px) {
+    h1 { font-size: 22px; margin: 8px 0 4px; }
+    h3 { font-size: 18px; }
+    #userSection p { font-size: 14px; word-break: break-word; }
+    .btn { padding: 10px 16px; font-size: 15px; }
+  }
+
+  /* ---------- year selector ---------- */
+  #yearBar {
+    display: flex; justify-content: center; align-items: center;
+    gap: 8px; flex-wrap: wrap; margin: 8px 0 18px;
+  }
+  #yearBar label { margin: 0; }
+  .year-select   { max-width: 120px; min-height: 40px; }
+
+  /* ---------- initiate card ---------- */
   #userSection {
     display: flex; flex-direction: column; justify-content: center;
     align-items: center; min-height: 50vh; text-align: center;
+    padding: 0 4px;
   }
+
+  /* ---------- pagination touch targets ---------- */
+  #paginationControls button {
+    min-width: 40px; min-height: 40px; margin: 2px;
+    font-size: 14px;
+  }
+
+  /* ---------- admin logout on mobile ---------- */
   .logout-btn { float: right; margin-bottom: 10px; }
-  .year-select { max-width: 120px; display: inline-block; }
-  .up { text-transform: uppercase; }
-  #yearBar { margin: 10px 0 25px; }
+  @media (max-width: 575px) {
+    .logout-btn { float: none; display: block; width: 100%; margin: 8px 0; }
+  }
+
+  /* =========================================================
+     ADMIN TABLE -> CARDS ON PHONES
+     ========================================================= */
+  @media (max-width: 767px) {
+    .admin-table thead { display: none; }
+    .admin-table,
+    .admin-table tbody,
+    .admin-table tr,
+    .admin-table td { display: block; width: 100%; }
+
+    .admin-table tr {
+      background: rgba(0, 0, 0, .55);
+      border: 1px solid rgba(255, 255, 255, .25);
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin-bottom: 12px;
+    }
+
+    .admin-table td {
+      border: 0 !important;
+      padding: 4px 0;
+      display: flex;
+      gap: 8px;
+      font-size: 14px;
+      line-height: 1.35;
+      word-break: break-word;
+    }
+
+    .admin-table td::before {
+      content: attr(data-label);
+      flex: 0 0 88px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      opacity: .7;
+      padding-top: 2px;
+    }
+  }
 </style>
 </head>
 <body>
@@ -29,7 +109,7 @@
 
   <h1 class="text-center" id="pageTitle">Apapo Odu Ifa Initiates</h1>
 
-  <div id="yearBar" class="text-center">
+  <div id="yearBar">
     <label for="yearSelect">Year:</label>
     <select id="yearSelect" class="form-control year-select" onchange="onYearChange(this.value)"></select>
   </div>
@@ -73,7 +153,7 @@
       <input type="text" id="searchInput" class="form-control"
              placeholder="Search by name, mother's name, Odu Ifa…" oninput="handleSearch()">
     </div>
-    <table class="table table-bordered">
+    <table class="table admin-table">
       <thead>
         <tr><th>S/N</th><th>Name</th><th>Mother</th><th>Odu Ifa</th><th>Ikita Ifa</th><th>Oruko</th></tr>
       </thead>
@@ -142,13 +222,12 @@ async function loadYear(y) {
   document.title = `${CONFIG.siteTitle} ${y}`;
   document.getElementById("pageTitle").textContent = `${CONFIG.siteTitle} ${y}`;
 
-  // Keep the URL shareable / bookmarkable
   const url = new URL(location);
   url.searchParams.set("year", y);
   history.replaceState(null, "", url);
 
   resetUI();
-  if (wasAdmin) {                       // admins stay logged in across years
+  if (wasAdmin) {
     currentUser = { username: CONFIG.admin.username, isAdmin: true };
     showAdminDashboard();
   }
@@ -271,12 +350,12 @@ function updateUserTable() {
     const u = entries[i];
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td>${i + 1}</td>
-      <td>${esc(u.username)}</td>
-      <td>${esc(u.password)}</td>
-      <td class="up">${esc(u.status)}</td>
-      <td class="up">${esc(u.ikita)}</td>
-      <td class="up">${esc(u.orukoOrisha)}</td>`;
+      <td data-label="S/N">${i + 1}</td>
+      <td data-label="Name">${esc(u.username)}</td>
+      <td data-label="Mother">${esc(u.password)}</td>
+      <td data-label="Odu Ifa"  class="up">${esc(u.status)}</td>
+      <td data-label="Ikita Ifa" class="up">${esc(u.ikita)}</td>
+      <td data-label="Oruko"    class="up">${esc(u.orukoOrisha)}</td>`;
     tbody.appendChild(tr);
   }
 
