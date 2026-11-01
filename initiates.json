@@ -9,368 +9,368 @@
   },
   {
     "id": 2,
-    "username": "OLAWALE",
-    "password": "AMDALAT",
+    "username": "olawale",
+    "password": "amdalat",
     "status": "OGBE OWONRIN , OKUNBO , OFU , EBO ESHA",
     "ikita": "Ejiogbe , okunbo, Ori Ejo Adimu Egungun",
     "orukoOrisha": "Orisa nla, Ọsun,Ẹgbẹ , Orukọ rẹ ỌSHỌNIYIYI"
   },
   {
     "id": 3,
-    "username": "AZEEZ",
-    "password": "RASHEEDAT",
+    "username": "azeez",
+    "password": "rasheedat",
     "status": "OFUN IROSUN , IRE ISEGUN , ADIMU EEGUN",
     "ikita": "Ose okanran , IRE AIKU ,  adimu ori",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo Orukọ rẹ ẸFUNYẸMI"
   },
   {
     "id": 4,
-    "username": "WASIU",
-    "password": "RASHEEDAT",
+    "username": "wasiu",
+    "password": "rasheedat",
     "status": "IRETE IDI , IRE AIKU , ADIMU IFA",
     "ikita": "OGBE IROSUN  , IRE AJE , EBO ESHA",
     "orukoOrisha": "Orisa nlaOrukọ re ỌSHỌYINKA"
   },
   {
     "id": 5,
-    "username": "FIKAYO",
-    "password": "GLORIA",
+    "username": "fikayo",
+    "password": "gloria",
     "status": "OSA OKANRAN , IRE AIKU , ADIMU IFA",
     "ikita": "IWORI OGBE , IRE AIKU , ADIMU IFA",
     "orukoOrisha": "Orisa nla,Ọsun,Sọngo ,Orukọ rẹ ỌSUNYẸMI"
   },
   {
     "id": 6,
-    "username": "TOLUWANI",
-    "password": "GLORIA",
+    "username": "toluwani",
+    "password": "gloria",
     "status": "OSA OWONRIN , IRE ISEGUN , ADIMU ORI",
     "ikita": "OGBE OSA , Okunbo, Ogun , Ebo ESHA",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Erinlẹ Orukọ rẹ ERINFỌLABI"
   },
   {
     "id": 7,
-    "username": "DAMILOLA",
-    "password": "ZAINOB",
+    "username": "damilola",
+    "password": "zainob",
     "status": "IKA IROSUN , OKUNBO , IKU , ADIMU ORI",
     "ikita": "Osa meji , ire aiku , Adimu Ori",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Erinlẹ. Orukọ rẹ ỌSHỌKẸMI."
   },
   {
     "id": 8,
-    "username": "OMOLOLA",
-    "password": "OMOLARA",
+    "username": "omolola",
+    "password": "omolara",
     "status": "OTURA OGBE , IRE ISEGUN , ADIMU ORISA .",
     "ikita": "Ogunda ogbe , ire aiku , adimu ifa",
     "orukoOrisha": "OOrisa nla,Ọsun,Ẹgbẹ,Ọya. Orukọ rẹ ẸGBẸFIKAYỌMI"
   },
   {
     "id": 9,
-    "username": "NURUDEEN",
-    "password": "RASHEEDAT",
+    "username": "nurudeen",
+    "password": "rasheedat",
     "status": "IKA OYEKU , IRE IGBALESE , ADIMU EEGUN",
     "ikita": "Ika oturupon , Okunbo, Ori Ogun Adimu Ebo",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo,Ọbaluaye,Ọya.Orukọ rẹ ẸFUNGBEMI"
   },
   {
     "id": 10,
-    "username": "LIAH",
-    "password": "SARAH",
+    "username": "liah",
+    "password": "sarah",
     "status": "OGUNDA OSA , OKUNBO , IKU , ADIMU ORISA",
     "ikita": "Ejiogbe , Ire aiku, Ebo  esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo,Ẹrinlẹ Orukọ rẹ ẸGBẸSEYI"
   },
   {
     "id": 11,
-    "username": "AFOLABI",
-    "password": "MUTIA",
+    "username": "afolabi",
+    "password": "mutia",
     "status": "OYEKU OTURA , OKUNBO , IKU , EBO AKORU",
     "ikita": "Ose irete,ire aiku , ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo,Ọbaluaye,Mọlokun.Orukọ rẹ OLUNIYI."
   },
   {
     "id": 12,
-    "username": "NOFISAT",
-    "password": "SHAKEERAT",
+    "username": "nofisat",
+    "password": "shakeerat",
     "status": "IKA IRETE , OKUNBO , IKU , EBO AKORU",
     "ikita": "Ogunda ogbe , Okunbo, Ori Ogun Ebo , akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo , Orukọ rẹ ẸGBẸTUNMISE"
   },
   {
     "id": 13,
-    "username": "YUSUF",
-    "password": "RASHEEDAT",
+    "username": "yusuf",
+    "password": "rasheedat",
     "status": "RETE IWORI , IRE AIKU , EBO ESHA",
     "ikita": "Oyeku osa , Okunbo, Ori Ejo Ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọbaluaye,Sọngo,Orukọ rẹ ỌSUNFỌLAHAN"
   },
   {
     "id": 14,
-    "username": "RAHMAN",
-    "password": "MEMUNAT",
+    "username": "rahman",
+    "password": "memunat",
     "status": "OTURA MEJI , IRE AIKU , ADIMU EEGUN",
     "ikita": "OGBE IRETE  , IRE AIKU , EBO ESHA",
     "orukoOrisha": "Orisa nla ,Orukọ rẹ ỌSHỌKAYỌDE"
   },
   {
     "id": 15,
-    "username": "GBOLAHAN",
-    "password": "SULIAT",
+    "username": "gbolahan",
+    "password": "suliat",
     "status": "OGBE IWORI , IRE ISEGUN , ADIMU --------",
     "ikita": "Ogunda otura , okunbo , iku , ebo esha",
     "orukoOrisha": "Orisa nla , Orukọ rẹ ỌSHỌKOLADE"
   },
   {
     "id": 16,
-    "username": "RAHEEMAT",
-    "password": "SIMBIAT",
+    "username": "raheemat",
+    "password": "simbiat",
     "status": "OTURA OGBE , IRE AJE , EBO AKORU",
     "ikita": "ogbe otura ,ogun , adimu ori",
     "orukoOrisha": "Orisa nla,Ẹgbẹ Orukọ rẹ ỌSHỌGBEMINIYI"
   },
   {
     "id": 17,
-    "username": "OLALEKAN",
-    "password": "OLUWASEYE",
+    "username": "olalekan",
+    "password": "oluwaseye",
     "status": "OGBE OSA , OKUNBO , EJO , ADIMU ORI",
     "ikita": "Ogbe otura  , okunbo , iku , ebo esha",
     "orukoOrisha": "Orisa nla ,Oruko rẹ ỌSHỌGBAYI"
   },
   {
     "id": 18,
-    "username": "OLUWASEGUN",
-    "password": "YETUNDE",
+    "username": "oluwasegun",
+    "password": "yetunde",
     "status": "OGBE IROSUN , IRE ISEGUN , EBO AKORU",
     "ikita": "OGUNDA MEJI , okunbo , ejo , ebo akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo , Orukọ rẹ SỌNGOGBỌLADE"
   },
   {
     "id": 19,
-    "username": "WURAOLA",
-    "password": "FUNMILAYO",
+    "username": "wuraola",
+    "password": "funmilayo",
     "status": "OTURA OGBE , OKUNBO , IKU , ADIMU IFA",
     "ikita": "Idiogbe , Ire aje, Adimu Ori",
     "orukoOrisha": "Orisa nla ,Orukọ rẹ ỌSHÖWUNMI"
   },
   {
     "id": 20,
-    "username": "BASIT",
-    "password": "AJIMOTU",
+    "username": "basit",
+    "password": "ajimotu",
     "status": "OGBE OTURUPON , OKUNBO , IKU , EBO AKORU",
     "ikita": "Otura meji , ire aiku , ebo akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Sọngo , Orukọ rẹ ỌSHỌFUNMILỌPẸDA"
   },
   {
     "id": 21,
-    "username": "HAFIZ",
-    "password": "TOHEEBAT",
+    "username": "hafiz",
+    "password": "toheebat",
     "status": "OGBE IRETE , IRE ISEGUN , EBO ESHA",
     "ikita": "ogunda irosun , Ire aiku, Ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ọbaluaye,Ọya , Orukọ rẹ ỌSUNWANDE"
   },
   {
     "id": 22,
-    "username": "YUSUF",
-    "password": "SERIFAT",
+    "username": "yusuf",
+    "password": "serifat",
     "status": "IWORI OKANRAN , IRE AIKU , EBO AKORU",
     "ikita": "Osa ogbe ,Okunbo ,Ogun , Ebo akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ọbaluaye,Ọya , Oruko rẹ ỌSUNGBAYI"
   },
   {
     "id": 23,
-    "username": "YUSUF",
-    "password": "NUSIRAT",
+    "username": "yusuf",
+    "password": "nusirat",
     "status": "OKANRAN IWORI , IRE AIKU , ADIMU ---------",
     "ikita": "Okanran irosun , ire aiku , adimu ori",
     "orukoOrisha": "Orisa nla , Orukọ rẹ ỌSHỌBỌWALE"
   },
   {
     "id": 24,
-    "username": "AZEEZ",
-    "password": "ADEBIMPE",
+    "username": "azeez",
+    "password": "adebimpe",
     "status": "IDI MEJI , IRE AIKU , EBO AKORU",
     "ikita": "Irete irosun , Ire aiku ,Ebo  akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọbaluaye , Orukọ rẹ EREYẸMI"
   },
   {
     "id": 25,
-    "username": "ABAYOMI",
-    "password": "FOLASHADE",
+    "username": "abayomi",
+    "password": "folashade",
     "status": "OKANRAN OBARA , OKUNBO , EJO , EBO ESHA",
     "ikita": "Ejiogbe , Okunbo Ori Ogun Adimu Ori",
     "orukoOrisha": "Orisa nla,Ọsun,Erinlẹ ,Orukọ rẹ ERINTUNMISE"
   },
   {
     "id": 26,
-    "username": "OLUWATOBI",
-    "password": "MORENIKEJI",
+    "username": "oluwatobi",
+    "password": "morenikeji",
     "status": "OSE OWONRIN , OKUNBO , IKU , ADIMU IFA",
     "ikita": "Ogunda idi , okunbo , iku , ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Omitutu,Erinlẹ Orukọ rẹ ỌSUNBUKỌLA"
   },
   {
     "id": 27,
-    "username": "AKIN",
-    "password": "LYAH",
+    "username": "akin",
+    "password": "lyah",
     "status": "IKA OGUNDA , IRE AJE , EBO AKORU",
     "ikita": "Ejiogbe , Ire aiku, Ebo akoru",
     "orukoOrisha": "Orisa nla ,Orukọ rẹ OSHỌYẸMI"
   },
   {
     "id": 28,
-    "username": "AWAL",
-    "password": "IDOWU",
+    "username": "awal",
+    "password": "idowu",
     "status": "IKA OYEKYU , OKUNBO , IKU , ADIMU ORI",
     "ikita": "Ogunda irete  ,Okunbo, Ogun Adimu ifa",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ , Orukọ rẹ ỌSUNBỌWALE"
   },
   {
     "id": 29,
-    "username": "QUADRI",
-    "password": "IDOWU",
+    "username": "quadri",
+    "password": "idowu",
     "status": "OKANRAN OTURUPON , OKUNBO , OFU , EBO ESHA",
     "ikita": "Ogbe osa , ire isegun , adimu ori",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọbaluaye ,Orukọ rẹ ẸFUNGBEMI"
   },
   {
     "id": 30,
-    "username": "ELIZABETH",
-    "password": "RAHEEMAT",
+    "username": "elizabeth",
+    "password": "raheemat",
     "status": "IDI OSE , IRE AJE , EBO AKORU",
     "ikita": "ose idi , ogun ,adimu eegun",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọbaluaye Orukọ rẹ IROKOWUNMI"
   },
   {
     "id": 31,
-    "username": "FAWAZ",
-    "password": "ABOSEDE",
+    "username": "fawaz",
+    "password": "abosede",
     "status": "OSA IDI , IRE AIKU , ADIMU ORI",
     "ikita": "Ika ofun , ire Aje , ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọbaluaye, Erinlẹ,Ọya , Orukọ rẹ ỌSUNKỌLADE"
   },
   {
     "id": 32,
-    "username": "HILARY",
-    "password": "HAIKA",
+    "username": "hilary",
+    "password": "haika",
     "status": "OGUNDA MEJI , OKUNBO , AARUN , ADIMU ORI",
     "ikita": "ire isegun , ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Sọngo,Ọbaluaye,Ẹgbẹ,Ọya Orukọ rẹ ỌSHỌGBAYI"
   },
   {
     "id": 33,
-    "username": "LOOKMAN",
-    "password": "MODINAT",
+    "username": "lookman",
+    "password": "modinat",
     "status": "OGBE OGUNDA , IRE AIKU , EBO ESHA",
     "ikita": "idi ose , ire aiku , adimu eegun",
     "orukoOrisha": "Orisa nla,Ọsun,Molokun,Erinlẹ ,Oruko rẹ MỌLOKUNYEMI"
   },
   {
     "id": 34,
-    "username": "ROKEEB",
-    "password": "IDOWU",
+    "username": "rokeeb",
+    "password": "idowu",
     "status": "OYEKU OBARA , IRE AIKU , ADIMU ORI",
     "ikita": "ose iwori , Ire isegun Adimu ifa",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọta,Erinlẹ , Orukọ rẹ ẸFUNTOKUNBỌ"
   },
   {
     "id": 35,
-    "username": "ODUNAYO",
-    "password": "MOTUNRAYO",
+    "username": "odunayo",
+    "password": "motunrayo",
     "status": "OSA MEJI , OKUNBO , IKU , ADIMU ORI",
     "ikita": "Oturupon obara , ire aiku , ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ọta,Sọngo Orukọ rẹ ỌSHỌYINKA"
   },
   {
     "id": 36,
-    "username": "HAKEEM",
-    "password": "MORIAMO",
+    "username": "hakeem",
+    "password": "moriamo",
     "status": "OGUNDA OSA , IRE AIKU , EBO AKORU",
     "ikita": "Ogbeogunda , Okunbo , Ogun Adimu eegun",
     "orukoOrisha": "Orisa nla Orukọ rẹ ẸFUNNIYI"
   },
   {
     "id": 37,
-    "username": "ZAKARIYAH",
-    "password": "RISIKAT",
+    "username": "zakariyah",
+    "password": "risikat",
     "status": "OGBE IKA , OKUNBO , IKU , EBO AKORU",
     "ikita": "Ogunda otura, Okunbo , Arun ara , Ebo akoru .",
     "orukoOrisha": "Orisa nla Orukọ rẹ ẸFUNGBEMI"
   },
   {
     "id": 38,
-    "username": "ADEBAYO",
-    "password": "EBUN",
+    "username": "adebayo",
+    "password": "ebun",
     "status": "IDI IRETE , OKUNBO , EJO , EBO AKORU",
     "ikita": "Otura meji , ire aje , ebo akoru",
     "orukoOrisha": "Orisa nla Orukọ rẹ ỌSHỌGBAYI"
   },
   {
     "id": 39,
-    "username": "OMOBOLA",
-    "password": "OLUWAYEMISI",
+    "username": "omobola",
+    "password": "oluwayemisi",
     "status": "IDI OTURA, OKUNBO , AARUN , ADIMU ORISA",
     "ikita": "irete meji , Ire aiku , Ebo akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Mọlokun, Ọbaluaye , Orukọ rẹ OLUTOKUNBỌ"
   },
   {
     "id": 40,
-    "username": "AGBOOLA",
-    "password": "FATIMAH",
+    "username": "agboola",
+    "password": "fatimah",
     "status": "IRETE OGBE , IRE ISEGUN , ADIMU ORISA",
     "ikita": "Irete ogbe ,Ire aiku Adimu Ori",
     "orukoOrisha": "Orisa nla , Orukọ rẹ , ẸFUNJỌBI"
   },
   {
     "id": 41,
-    "username": "AYANFEOLUWA",
-    "password": "OLAYINKA",
+    "username": "ayanfeoluwa",
+    "password": "olayinka",
     "status": "OTURUPON OGUNDA , IRE ISEGUN , ADIMU ORI",
     "ikita": "Otura irosun , okunbo , ofu , adimu ori",
     "orukoOrisha": "Orisa nla , Orukọ rẹ , ẸFUNYẸLA"
   },
   {
     "id": 42,
-    "username": "DAMILOLA",
-    "password": "YINKA",
+    "username": "damilola",
+    "password": "yinka",
     "status": "IDI IKA , IRE AIKU , EBO AKORU",
     "ikita": "Ogunda otura , ire Aje , Ebo akoru",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọta Orukọ rẹ ỌSHỌGBEMI"
   },
   {
     "id": 43,
-    "username": "ADEDEJI",
-    "password": "FOLASHADE",
+    "username": "adedeji",
+    "password": "folashade",
     "status": "OKANRAN IWORI , IRE AJE , EBO ESHA",
     "ikita": "ogbe ogunda ,Ire Aje , Ebo esha",
     "orukoOrisha": "Orisa nla,Ọsun,Ẹgbẹ,Ọta,Sọngo,Ọbaluaye Orukọ rẹ ỌSHỌNIYI"
   },
   {
     "id": 44,
-    "username": "ABDULLAHI",
-    "password": "ZAINAB",
+    "username": "abdullahi",
+    "password": "zainab",
     "status": "OTURUPON IROSUN , IRE AIKU , EBO AKORU",
     "ikita": "Otura irete , okunbo , iku , ebo akoru",
     "orukoOrisha": "Orisa nla, Orukọ rẹ ẸFUNGBAMILA"
   },
   {
     "id": 45,
-    "username": "RANTI",
-    "password": "TAIYELOLU",
+    "username": "ranti",
+    "password": "taiyelolu",
     "status": "OWONRIN OTURA , IRE IGBALAESE , EBO ESHA",
     "ikita": "Ogunda ogbe , Ire aiku , Ebo akoru",
     "orukoOrisha": "Orisa nla,osun Orukọ rẹ ỌSUNWUNMI"
   },
   {
     "id": 46,
-    "username": "RANTI",
-    "password": "TAIYELOLU",
+    "username": "ranti",
+    "password": "taiyelolu",
     "status": "OWONRIN OTURA , IRE IGBALAESE , EBO ESHA",
     "ikita": "Ogunda ogbe , Ire aiku , Ebo akoru",
     "orukoOrisha": "Orisa nla,osun Orukọ rẹ ỌSUNWUNMI"
   },
   {
     "id": 47,
-    "username": "ADEDEJI",
-    "password": "BOLANLE",
+    "username": "adedeji",
+    "password": "bolanle",
     "status": "OYEKU OSE , IRE AJE , ADIMU IFA .",
     "ikita": "Ejiogbe , Ire Aje ,Ebo akoru .",
     "orukoOrisha": "Orisa nla,Ọsun,Ọta ,Orukọ rẹ ỌTAGBEMI"
