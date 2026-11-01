@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "username": "admin",
-    "password": "admin",
-    "status": "Apapo Odu Cultural Organization",
-    "ikita": "Apapo Odu Cultural Organization",
-    "orukoOrisha": "Apapo Odu Cultural Organization"
-  },
-  {
     "id": 2,
     "username": "olawale",
     "password": "amdalat",

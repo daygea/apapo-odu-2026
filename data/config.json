@@ -1,0 +1,7 @@
+{
+  "siteTitle": "Apapo Odu Ifa Initiates",
+  "organization": "Apapo Odu Cultural Organization",
+  "defaultYear": "2026",
+  "years": ["2024", "2025", "2026"],
+  "admin": { "username": "admin", "password": "admin" }
+}

@@ -1,0 +1,1103 @@
+[
+    {
+        "id": 2,
+        "username": "abiodun",
+        "password": "fausat",
+        "status": "Ejiogbe, Ire Isegun, Adimu Ifa",
+        "ikita": "Irosun Irete, Ire Aje, Ebo Akoru",
+        "orukoOrisha":"Osunyinka"
+    },
+
+    {
+        "id": 3,
+        "username": "hafusatu",
+        "password": "sidikat",
+        "status": "Ogbe Irete, Ire Aje, Ebo Akoru",
+        "ikita": "Ejiogbe, Ire Igbala ese, Adimu Ifa",
+        "orukoOrisha":"Oshogbemi"
+    },
+
+   {
+        "id": 4,
+        "username": "ifadare",
+        "password": "florence",
+        "status": "Ogbe irosun, Ire aiku, ebo akoru",
+        "ikita": "Ogbe Ogunda ,okunbo,iku, adimu ori",
+        "orukoOrisha":"Osunyemi"
+    },
+   
+    {
+        "id": 5,
+        "username": "ajayiazeez",
+        "password": "kudirat",
+        "status": "otura irete, okunbo, iku, ebo akoru",
+        "ikita": "osa otura, Ire Aje, Ebo esha",
+        "orukoOrisha":"Obagbemi"
+    },
+
+    {
+        "id": 6,
+        "username": "kehinde",
+        "password": "nike",
+        "status": "ogunda ogbe, okunbo ,ejo ,ebo esha",
+        "ikita": "Irosun osa, Ire Aiku, adimu ifa",
+        "orukoOrisha":"Osunwamiri"
+    },
+
+    {
+        "id": 7,
+        "username": "amirat",
+        "password": "kafilat",
+        "status": "irete obara, Ire aiku, Adimu Ifa",
+        "ikita": "ogbe ose, Ire isegun, Ebo esha",
+        "orukoOrisha":"egbetola"
+    },
+
+    {
+        "id": 8,
+        "username": "abiodun",
+        "password": "adejoke",
+        "status": "ose owonrin, Ire aje, ebo akoru",
+        "ikita": "osa otura,okunbo , iku, adimu ifa",
+        "orukoOrisha":"sangogbarada"
+    },
+
+    {
+        "id": 9,
+        "username": "wahab",
+        "password": "ramotu",
+        "status": "otura ogbe, okunbo, ogun ,adimu ori",
+        "ikita": "otura ogunda, Ire Aiku, Ebo esha",
+        "orukoOrisha":"obaponle"
+    },
+
+    {
+        "id": 10,
+        "username": "babatunde",
+        "password": "funmilayo",
+        "status": "ika okaran, Ire aiku, ebo akoru",
+        "ikita": "ogunda ogbe, Ire Aiku, Ebo Akoru",
+        "orukoOrisha":"efuntimileyin"
+    },
+
+    {
+        "id": 11,
+        "username": "kareem",
+        "password": "alaba",
+        "status": "ogunda obara ,Ire aje, Adimu ori",
+        "ikita": "otura owonrin, Ire Aiku, Ebo esha",
+        "orukoOrisha":"Oshokayode"
+    },
+   
+    {
+        "id": 12,
+        "username": "olatoye",
+        "password": "olatundu",
+        "status": "ose ika, Ire aje, ebo akoru",
+        "ikita": "otura ogbe, Ire Aiku, adimu ori ",
+        "orukoOrisha":"Oshoniyi"
+    },
+
+    {
+        "id": 13,
+        "username": "ifakolade",
+        "password": "florence",
+        "status": "osa ogbe, okunbo ,iku , adimu orisa",
+        "ikita": "ogbe Irete, okunbo ,aarun , Ebo esha",
+        "orukoOrisha":"Oshoniyi"
+    },
+    
+    {
+        "id": 14,
+        "username": "niyi",
+        "password": "sabekat",
+        "status": "Ejiogbe, Ire aje, ebo akoru",
+        "ikita": "okanran irosun, okunbo, Iku, Ebo Akoru",
+        "orukoOrisha":"Oshogbade"
+    },
+
+    {
+        "id": 15,
+        "username": "imoleayo",
+        "password": "kafayat",
+        "status": "ogbe ose, Ire aje, ebo esha",
+        "ikita": "osa Irete, Ire Aje, Ebo Akoru",
+        "orukoOrisha":"Oshoyemi"
+    },
+
+    {
+        "id": 16,
+        "username": "fadunke",
+        "password": "shakeerat",
+        "status": "irete osa, okunbo, iku, ebo esha",
+        "ikita": "ogbe ose ,okunbo, iku , adimu ori",
+        "orukoOrisha":"efunshola"
+    },
+
+    {
+        "id": 17,
+        "username": "samuel",
+        "password": "serifat",
+        "status": "ogunda idi, Ire Isegun, ebo esha",
+        "ikita": "ogunda owonrin, okunbo, arun, Ebo Akoru",
+        "orukoOrisha":"efungbarada"
+    },
+
+    {
+        "id": 18,
+        "username": "rohimot",
+        "password": "hafusat",
+        "status": "okaran obara, Ire aiku, ebo akoru",
+        "ikita": "ogbe otura, okunbo, ejo, adimu ori",
+        "orukoOrisha":"Oshoshekemi"
+    },
+
+    {
+        "id": 19,
+        "username": "aina",
+        "password": "aladeokomo",
+        "status": "osa irete, Ire aiku, ebo esha ",
+        "ikita": "ogbe otura, okunbo, iku, Ebo Akoru",
+        "orukoOrisha":"Osunyemi"
+    },
+
+    {
+        "id": 20,
+        "username": "haruna",
+        "password": "kudirat",
+        "status": "oyeku ofun, Ire Isegun, ebo akoru",
+        "ikita": "idi osa, okunbo, iku, Ebo esha",
+        "orukoOrisha":"Oshotunmininu"
+    },
+
+    {
+        "id": 21,
+        "username": "ibrahim",
+        "password": "toyin",
+        "status": "ogunda otura, okunbo, ogun , Adimu orisa",
+        "ikita": "oturupon irosun, okunbo, iku , ebo esha",
+        "orukoOrisha":"Oshomurewa"
+    },
+
+   {
+        "id": 22,
+        "username": "kazeem",
+        "password": "alege",
+        "status": "iwori obara, Ire aje, Adimu ori",
+        "ikita": "osa ogbe, Ire isegun, adimu ori",
+        "orukoOrisha":"Oshotimilehin"
+    },
+
+    {
+        "id": 23,
+        "username": "fatima",
+        "password": "kehinde",
+        "status": "ofun, oturupon, okunbo , ogun ,  Adimu Ifa",
+        "ikita": "otura ika ,okunbo, ofu, adimu ifa",
+        "orukoOrisha":"Osunyinka"
+    },
+
+   {
+        "id": 24,
+        "username": "oluniyi",
+        "password": "nike",
+        "status": "irosun otura ,okunbo ,Iku ,Adimu ori",
+        "ikita": "Irosun idi, okunbo, iku, Ebo Akoru",
+        "orukoOrisha":"Oyasegun"
+    },
+
+    {
+        "id": 25,
+        "username": "magret",
+        "password": "oluwakemi",
+        "status": "ogunda ose, okunbo, ogun, ebo akoru",
+        "ikita": "Irete otura, okunbo, iku , Ebo Akoru",
+        "orukoOrisha":"Osunshola"
+    },
+
+   {
+        "id": 26,
+        "username": "jamiuganiyu",
+        "password": "halimatu",
+        "status": "Ejiogbe, okunbo, ejo, ebo esha",
+        "ikita": "Idi owonrin, okunbo , iku , Ebo esha",
+        "orukoOrisha":"Oshoniyi"
+    },
+
+   {
+        "id": 27,
+        "username": "kayode",
+        "password": "adenike",
+        "status": "otura meji, Ire aje, Adimu ori",
+        "ikita": "ogunda idi , Ire aiku, adimu ori",
+        "orukoOrisha":"Oyawande"
+    },
+
+   {
+        "id": 28,
+        "username": "dileola",
+        "password": "subola",
+        "status": "idi ika, Ire aje, ebo akoru",
+        "ikita": "ogbe otura, okunbo ,aarun, Ebo Akoru",
+        "orukoOrisha":"Osuntege"
+    },
+
+    {
+        "id": 29,
+        "username": "adebisi",
+        "password": "muheebat",
+        "status": "owonrin osa, okunbo, ogun, Adimu ori",
+        "ikita": "eji ogbe, okunbo ,iku ,adimu ori",
+        "orukoOrisha":"efunyela"
+    },
+
+    {
+        "id": 30,
+        "username": "olatunbosun",
+        "password": "mojisola",
+        "status": "obara ika, okunbo, aarun, adimu ori",
+        "ikita": "ogbe ogunda, Ire Aiku, Ebo esha",
+        "orukoOrisha":"efunwunmi"
+    },
+
+    {
+        "id": 31,
+        "username": "idris",
+        "password": "funmilayo",
+        "status": "ose okanran, Ire aje, ebo akoru",
+        "ikita": "Iwori oturupon , okunbo , iku , ebo esha ",
+        "orukoOrisha":"Otagbemi"
+    },
+
+   {
+        "id": 32,
+        "username": "abbeyolanrewaju",
+        "password": "mufuli",
+        "status": "ogbe idi, okunbo, ejo, ebo esha",
+        "ikita": "otura meji ,okunbo ,iku ,adimu ori",
+        "orukoOrisha":"Osunlana"
+    },
+
+   {
+        "id": 33,
+        "username": "sharafa",
+        "password": "mistura",
+        "status": "idi owonrin, Ire aje, ebo esha",
+        "ikita": "otura ose, okunbo, ejo, Ebo Akoru",
+        "orukoOrisha":"Oshogbemi"
+    },
+
+   {
+        "id": 34,
+        "username": "ifaribidomayowa",
+        "password": "kemi",
+        "status": "irete oyeku, Ire Igbalaese, Adimu ori",
+        "ikita": "okanran owonrin, okunbo ,iku ,ebo esha",
+        "orukoOrisha":"Oshogbolade"
+    },
+
+   {
+        "id": 35,
+        "username": "ifasekemi",
+        "password": "motunrayo",
+        "status": "ose okanran, Ire aiku, ebo akoru",
+        "ikita": "otura ogbe, ire isegun, adimu ori",
+        "orukoOrisha":"Osunshalewa"
+    },
+
+   {
+        "id": 36,
+        "username": "tolulope",
+        "password": "omotayo",
+        "status": "ogunda otura, Ire aiku, Adimu orisa",
+        "ikita": "okanran iwori, Ire Aiku, Ebo esha",
+        "orukoOrisha":"Osunmayowa"
+    },
+  
+   {
+        "id": 37,
+        "username": "sodiq",
+        "password": "lateefat",
+        "status": "idi oturupon, okunbo, iku, ebo esha",
+        "ikita": "ejiogbe, Ire Aiku, adimu ori",
+        "orukoOrisha":"efuniyi"
+    },
+
+   {
+        "id": 38,
+        "username": "taiyefijabi",
+        "password": "silifatu",
+        "status": "owonrin otura, Ire Isegun, ebo esha",
+        "ikita": "Irosun Irete, okunbo, aarun, adimu ori",
+        "orukoOrisha":"Obayinka"
+    },
+
+   {
+        "id": 39,
+        "username": "fatima",
+        "password": "basirat",
+        "status": "iwori meji, okunbo, iku, ebo esha",
+        "ikita": "ogunda osa, okunbo, ejo, ebo esha",
+        "orukoOrisha":"Osunyemi"
+    },
+
+   {
+        "id": 40,
+        "username": "fatai",
+        "password": "oladunni",
+        "status": "obara iwori, Ire aje, Adimu orisa",
+        "ikita": "ejiogbe, Ire isegun, adimu ori",
+        "orukoOrisha":"sangogbolade"
+    },
+
+   {
+        "id": 41,
+        "username": "jamiu",
+        "password": "abiola",
+        "status": "ika irete, Ire Igbalaese, ebo esha",
+        "ikita": "Irete osa, okunbo, ofu, ebo esha",
+        "orukoOrisha":"Osunyinka"
+    },
+
+   {
+        "id": 42,
+        "username": "fawaz",
+        "password": "kafila",
+        "status": "iwori irete, okunbo, ejo, adimu ori",
+        "ikita": "ogbe iwori, Ire Aje, Ebo esha",
+        "orukoOrisha":"Osshogbade"
+    },
+
+    {
+        "id": 43,
+        "username": "malik",
+        "password": "yetunde",
+        "status": "ogbe ofun, Ire aje, ebo akoru",
+        "ikita": "ogbe osa, Ire Aiku, Ebo Akoru",
+        "orukoOrisha":"Oshogbola"
+    },
+   
+    {
+        "id": 44,
+        "username": "iyiola",
+        "password": "folasade",
+        "status": "iwori ose, okunbo, ogun, Adimu ori",
+        "ikita": "Irete ogbe, Ire Aje, adimu orisa",
+        "orukoOrisha":"Oluniyi"
+    },
+
+    {
+        "id": 45,
+        "username": "akinkunmi",
+        "password": "iyabo",
+        "status": "ogbe otura, Ire aje, Adimu Ifa",
+        "ikita": "Ika idi, Ire Aiku, Ebo Akoru",
+        "orukoOrisha":"Otatomisin"
+    },
+
+    {
+        "id": 46,
+        "username": "lanresehu",
+        "password": "tayelolu",
+        "status": "obara meji, Ire Isegun, Adimu ori",
+        "ikita": "ogunda Irosun, okunbo, iku, adimui ori",
+        "orukoOrisha":"erinfolabi"
+    },
+
+   {
+        "id": 47,
+        "username": "ifayemi",
+        "password": "abiola",
+        "status": "osa owonrin, Ire aje, ebo akoru",
+        "ikita": "ogbe Irete, okunbo, iku, adimu ori",
+        "orukoOrisha":"Oshoyinka"
+    },
+
+   {
+        "id": 48,
+        "username": "shina",
+        "password": "arike",
+        "status": "ogbe owonrin ,Ire aiku, ebo akoru ",
+        "ikita": "osa okanran ,okunbo, aarun ,Ebo Akoru",
+        "orukoOrisha":"Oshokayode"
+    },
+
+   {
+        "id": 49,
+        "username": "wasiu",
+        "password": "fatima",
+        "status": "okanran idi ,Ire aiku , Adimu orisa",
+        "ikita": "ofun meji, Ire isegun , Ebo Akoru",
+        "orukoOrisha":"Oshokolade"
+    },
+
+   {
+        "id": 50,
+        "username": "oluwaseyi",
+        "password": "silfat",
+        "status": "osa irete, okunbo, ogun, ebo esha",
+        "ikita": "ogbe otura, okunbo, ejo, ebo esha",
+        "orukoOrisha":"Oshotonade"
+    },
+
+   {
+        "id": 51,
+        "username": "ifasayo",
+        "password": "morufat",
+        "status": "otura iwori ,okunbo ,ogun ,ebo akoru",
+        "ikita": "ogbe Irete, okunbo, ejo ,adimu ori",
+        "orukoOrisha":"Oshogbade"
+    },
+
+   {
+        "id": 52,
+        "username": "godwin",
+        "password": "comfort",
+        "status": "owonrin idi, okunbo, aarun, ebo esha",
+        "ikita": "ogunda ogbe, Ire igbalaese, Ebo Akoru",
+        "orukoOrisha":"Oluniyi"
+    },
+
+   {
+        "id": 53,
+        "username": "oladimeji",
+        "password": "hafusat",
+        "status": "oyeku owonrin ,Ire aje, ebo akoru",
+        "ikita": "Idi oturupon, Ire Aiku ,Ebo esha",
+        "orukoOrisha":"sangogbade"
+    },
+
+   {
+        "id": 54,
+        "username": "toluwani",
+        "password": "modinotu",
+        "status": "ofun obara, okunbo, aarun, ebo esha",
+        "ikita": "Irosun idi, okunbo, aarun, ebo akoru",
+        "orukoOrisha":"efungbadebo"
+    },
+
+   {
+        "id": 55,
+        "username": "fabishola",
+        "password": "elizabeth",
+        "status": "osa oturupon, Ire aiku, Adimu Ifa",
+        "ikita": "ogunda ogbe, Ire Aje, Ebo esha",
+        "orukoOrisha":"egbeshalewa"
+    },
+
+    {
+        "id": 56,
+        "username": "kayode",
+        "password": "shakeratu",
+        "status": "ika ogbe, Ire igbalaese, Adimu orisa",
+        "ikita": "ejiogbe, ikunbo, iku, Ebo Akoru",
+        "orukoOrisha":"Obagbade"
+    },
+
+    {
+        "id": 57,
+        "username": "kafilat",
+        "password": "batuni",
+        "status": "okanran ogbe, Ire aiku, ebo akoru",
+        "ikita": "ose iwori, Ire isegun, Ebo esha",
+        "orukoOrisha":"sangoniyi"
+    },
+
+    {
+        "id": 58,
+        "username": "olugbenga",
+        "password": "florence",
+        "status": "ogbe ogunda, Ire aje, ebo esha",
+        "ikita": "Irosun ofun, Ire isegun, Ebo esha",
+        "orukoOrisha":"Oluyemi"
+    },
+
+   {
+        "id": 59,
+        "username": "roqeeb",
+        "password": "fausat",
+        "status": "oyeku oturupon, Ire aiku, Adimu ori",
+        "ikita": "otura ogbe, Ire Aiku, adimu ori",
+        "orukoOrisha":"Oshoyemi"
+    },
+
+   {
+        "id": 60,
+        "username": "mufutau",
+        "password": "mulikat",
+        "status": "obara owonrin, okunbo, ogun, Adimu ori",
+        "ikita": "ofun oyeku, Ire isegun, adimu ori",
+        "orukoOrisha":"Osunkolade"
+    },
+
+    {
+        "id": 61,
+        "username": "olawaleafolarin",
+        "password": "silifat",
+        "status": "otura idi, okunbo, aarun, ebo akoru",
+        "ikita": "oyeku obara, Ire isegun, ebo esha",
+        "orukoOrisha":"efuntimileyin"
+    },
+
+   {
+        "id": 62,
+        "username": "pelumi",
+        "password": "taiwo",
+        "status": "oyeku irosun, ire akiu, Adimu ori",
+        "ikita": "ose osa, Ire aje, adimu orisa",
+        "orukoOrisha":"Osungoke"
+    },
+
+   {
+        "id": 63,
+        "username": "kamorudeentoyin",
+        "password": "yinka",
+        "status": "oturupon ogunda, ire aiku, ebo akoru",
+        "ikita": "ofun ose, okunbo, iku, ebo akoru",
+        "orukoOrisha":"egbeyemi"
+    },
+
+   {
+        "id": 64,
+        "username": "fawaz",
+        "password": "abosede",
+        "status": "iwori okanran, ire aje, ebo akoru",
+        "ikita": "otura oturupon, Ire aiku, adimu ori",
+        "orukoOrisha":"Osungbemi"
+    },
+
+   {
+        "id": 65,
+        "username": "boluwaji",
+        "password": "florence",
+        "status": "irete otura, ire aje, ebo akoru",
+        "ikita": "ogbe ogunda , Ire aiku, ebo akoru",
+        "orukoOrisha":"Oshoyemi"
+    },
+
+   {
+        "id": 66,
+        "username": "ajesekemi",
+        "password": "taiwoajeonire",
+        "status": "otura osa , ire aje , ebo esha",
+        "ikita": "ogbe ogunda , Ire aiku ,ebo esha",
+        "orukoOrisha":"irawe ojuona"
+    },
+
+   {
+        "id": 67,
+        "username": "muideen",
+        "password": "labake",
+        "status": "oturupon meji, ire aje, ebo akoru",
+        "ikita": "ose osa, okunbo, iku, adimu ori",
+        "orukoOrisha":"efunniyi "
+    },
+
+   {
+        "id": 68,
+        "username": "olamilekan",
+        "password": "iyabo",
+        "status": "ogunda meji, okunbo, aarun, ebo esha",
+        "ikita": "otura obara, Ire aiku, adimu ori",
+        "orukoOrisha":"oluniyi"
+    },
+
+   {
+        "id": 69,
+        "username": "motunrayo",
+        "password": "monilola",
+        "status": "irete owonrin, okunbo, aarun, ebo akoru",
+        "ikita": "oturupon owonrin, okunbo, iku, adimu ifa",
+        "orukoOrisha":"Omitola"
+    },
+
+   {
+        "id": 70,
+        "username": "ayomide",
+        "password": "pelumi",
+        "status": "otura obara, ire aje, ebo akoru",
+        "ikita": "irete ogbe, Ire aje, adimu eegun",
+        "orukoOrisha":"efunyela"
+    },
+
+   {
+        "id": 71,
+        "username": "ifamayowa",
+        "password": "fuwape",
+        "status": "ogunda idi, ire isegun, ebo akoru",
+        "ikita": "owonrin ogbe, ire aje, ebo esha",
+        "orukoOrisha":"sangoyinka"
+    },
+ 
+   {
+        "id": 72,
+        "username": "adebeshin",
+        "password": "foluke",
+        "status": "ofun meji, okunbo, ogun, Adimu ori",
+        "ikita": "ogbe ogunda, Ire isegun, adimu ori",
+        "orukoOrisha":"Oshoyemi "
+    },
+
+   {
+        "id": 73,
+        "username": "hafizadekunle",
+        "password": "shakeerat",
+        "status": "ogbe otura, ire aje, Adimu ori",
+        "ikita": "eji ogbe, okunbo, iku, adimu ifa",
+        "orukoOrisha":"efunkolade"
+    },
+
+   {
+        "id": 74,
+        "username": "seun",
+        "password": "aderonke",
+        "status": "ogbe ogunda ,ire aje, ebo esha",
+        "ikita": "osa ogbe, okunbo, aarun, adimu ori",
+        "orukoOrisha":"Oshotola"
+    },
+
+    {
+        "id": 75,
+        "username": "adeniyi",
+        "password": "hafusat",
+        "status": "osa ogunda, ire aje, ebo akoru",
+        "ikita": "ofun ogbe, Ire aiku, adimu ori",
+        "orukoOrisha":"efungbemi"
+    },
+
+   {
+        "id": 76,
+        "username": "ifaseun",
+        "password": "arike",
+        "status": "otura meji ,ire aiku , Adimu ori",
+        "ikita": "okanran osa, Ire aje , ebo esha ",
+        "orukoOrisha":"efunkolade "
+    },
+
+   {
+        "id": 77,
+        "username": "azeezolalekan",
+        "password": "aisat",
+        "status": "oturupon ogunda, ire isegun, ebo akoru",
+        "ikita": "ogbe osa, ire aiku, ebo esha",
+        "orukoOrisha":"Oshoyinka"
+    },
+
+   {
+        "id": 78,
+        "username": "sulaiman",
+        "password": "bintu",
+        "status": "owonrin idi, okunbo, ogun, Adimu ori",
+        "ikita": "ogbe ose, Ire aiku, ebo esha",
+        "orukoOrisha":"Oshokolade"
+    },
+
+   {
+        "id": 79,
+        "username": "yusuf",
+        "password": "hadijatu",
+        "status": "obara otura ,ire aiku ,Adimu ori",
+        "ikita": "irete otura, Ire igbalaese, ebo esha",
+        "orukoOrisha":"Oshoyemi"
+    },
+
+
+   {
+        "id": 80,
+        "username": "adegoke",
+        "password": "ayodele",
+        "status": "idi iwori, ire aje, ebo akoru",
+        "ikita": "osa otura, okunbo, iku, ebo esha",
+        "orukoOrisha":"sangogbemi"
+    },
+
+   {
+        "id": 81,
+        "username": "yinka",
+        "password": "serifatu",
+        "status": "owonrin iwori, ire aiku, ebo esha",
+        "ikita": "ogunda irosun, ire aiku, adimu eegun",
+        "orukoOrisha":"olugbade"
+    },
+
+   {
+        "id": 82,
+        "username": "adeneyesaheed",
+        "password": "habeebat",
+        "status": "oyeku obara, ire aje, ebo akoru",
+        "ikita": "ogbe ogunda, okunbo, iku, ebo esha",
+        "orukoOrisha":"osunyinka"
+    },
+
+   {
+        "id": 83,
+        "username": "wasiu",
+        "password": "bukonla",
+        "status": "ika ogbe, ire aiku, ebo akoru",
+        "ikita": "ogbe ogunda, okunbo ,iku, ebo akoru",
+        "orukoOrisha":"osungbade"
+    },
+
+   {
+        "id": 84,
+        "username": "tobi",
+        "password": "yemisi",
+        "status": "idi okanran, okunbo, iku, ebo akoru",
+        "ikita": "ogbe ogunda, okunbo, aarun, ebo esha",
+        "orukoOrisha":"oshogbemi"
+    },
+
+   {
+        "id": 85,
+        "username": "ajibola",
+        "password": "ajeyigbe",
+        "status": "ogunda obara, ire aiku, ebo akoru",
+        "ikita": "irosun oturupon, ire aje, adimu ori",
+        "orukoOrisha":"oshokorede"
+    },
+   
+   {
+        "id": 86,
+        "username": "olanrewaju",
+        "password": "aishat",
+        "status": "irosun irete, ire aje, ebo akoru",
+        "ikita": "ofun iwori, ire aiku, adimu ifa",
+        "orukoOrisha":"oshoyemi"
+    },
+
+   {
+        "id": 87,
+        "username": "micheal",
+        "password": "funmilola",
+        "status": "ogbe otura, okunbo, iku, ebo akoru",
+        "ikita": "irete ogbe, ire isegun, ebo akoru",
+        "orukoOrisha":"oshungbemi"
+    },
+   
+   {
+        "id": 88,
+        "username": "olasunkanmi",
+        "password": "kehinde",
+        "status": "irete meji, okunbo, iku, ebo esha",
+        "ikita": "oyeku oturupon, ire aiku, ebo akoru",
+        "orukoOrisha":"osunyinka"
+    },
+
+   {
+        "id": 89,
+        "username": "muheebatabimbola",
+        "password": "sarinatu",
+        "status": "ika osa, okunbo, ogun, ebo akoru",
+        "ikita": "irete iwori, ire isegun, ebo akoru",
+        "orukoOrisha":"efunyela"
+    },
+
+   {
+        "id": 90,
+        "username": "ifatimileyin",
+        "password": "ranti",
+        "status": "ose otura, ire isegun, ebo akoru",
+        "ikita": "iwori oturupon, okunbo, aarun, adimu orisa",
+        "orukoOrisha":"efunbowale"
+    },
+
+    {
+        "id": 91,
+        "username": "shukura",
+        "password": "ajoke",
+        "status": "oturupon oyeku, ire igbalaese, ebo esha",
+        "ikita": "ose meji, ire isegun, ebo akoru",
+        "orukoOrisha":"iraweojuona"
+    },
+
+   {
+        "id": 92,
+        "username": "basit",
+        "password": "idaya",
+        "status": "irosun obara, ire aiku, ebo esha",
+        "ikita": "owonrin ogunda, okunbo, iku, adimu ori",
+        "orukoOrisha":"osugbemi"
+    },
+
+   {
+        "id": 93,
+        "username": "baraka",
+        "password": "yemisi",
+        "status": "oyeku okanran, okunbo, iku, ebo akoru",
+        "ikita": "ofun idi, okunbo, iku, ebo akoru",
+        "orukoOrisha":"oshoyemisi"
+    },
+
+   {
+        "id": 94,
+        "username": "haliya",
+        "password": "yemisi",
+        "status": "ika okanran, ire aje, ebo akoru",
+        "ikita": "owonrin oyeku, okunbo, iku ,ebo akoru",
+        "orukoOrisha":"efunshola"
+    },
+
+   {
+        "id": 95,
+        "username": "olamilekan",
+        "password": "victoria",
+        "status": "ogunda iwori, ire aiku, ebo esha",
+        "ikita": "obara irosun, ire aje,  adimu ori",
+        "orukoOrisha":"osungbemi"
+    },
+
+   {
+        "id": 96,
+        "username": "oluwadarasimi",
+        "password": "kafayat",
+        "status": "obara ogbe, ire igbalaese, ebo esha",
+        "ikita": "obara okanran, ire aiku, ebo akoru",
+        "orukoOrisha":"sangokorede"
+    },
+
+   {
+        "id": 97,
+        "username": "quadri",
+        "password": "abeni",
+        "status": "ogbe irete, ire aje, ebo akoru",
+        "ikita": "otura irete, ire aje, ebo akoru",
+        "orukoOrisha":"oshoyemi "
+    },
+
+   {
+        "id": 98,
+        "username": "oluwaseun",
+        "password": "funmilayotola",
+        "status": "ogunda idi, okunbo, ogun, ebo akoru",
+        "ikita": "ogbe okanran, ire aiku, ebo esha",
+        "orukoOrisha":"egbeyinka"
+    },
+
+    {
+        "id": 99,
+        "username": "saheed",
+        "password": "hawawu",
+        "status": "otura ogunda, ire aiku, ebo esha",
+        "ikita": "ogunda irete, okunbo, ofu, adimu ori",
+        "orukoOrisha":"osunkolade"
+    },
+
+   {
+        "id": 100,
+        "username": "rasheedat",
+        "password": "arieke",
+        "status": "oyeku ogunda, ire isegun, ebo akoru",
+        "ikita": "iwori meji, okunbo, iku, adimu ori",
+        "orukoOrisha":"oshoyinka"
+    },
+
+   {
+        "id": 101,
+        "username": "juwon",
+        "password": "sabekatu",
+        "status": "ejiogbe, ire aiku, ebo esha",
+        "ikita": "otura ogbe  , ire aje ,  ebo esha",
+        "orukoOrisha":"egbeshayo"
+    },
+  
+
+    {
+        "id": 102,
+        "username": "rasheed",
+        "password": "alayo",
+        "status": "otura ogbe, ire aiku, ebo esha",
+        "ikita": "osa okanran, ire aiku, adimu ori",
+        "orukoOrisha":"oshogbemi"
+    },
+
+   {
+        "id": 103,
+        "username": "ganiyuonifade",
+        "password": "alayo",
+        "status": "osa irete  ,ire aje , ebo akoru",
+        "ikita": "otura obara   ,ire aiku, adimu ori",
+        "orukoOrisha":"osunkolade"
+    },
+
+    {
+        "id": 104,
+        "username": "ifakorede",
+        "password": "abiola",
+        "status": "idi ose, okunbo, okutagunileseforiso, ebo esha",
+        "ikita": "oyeku iwori, ire aiku, ebo akoru",
+        "orukoOrisha":"osungbade"
+    },
+
+   {
+        "id": 105,
+        "username": "mustapha",
+        "password": "monsura",
+        "status": "iwori ose, ire aje , ebo akoru",
+        "ikita": "ogbe otura, ire aiku, adimu ifa",
+        "orukoOrisha":"osunniyi"
+    },
+
+   {
+        "id": 106,
+        "username": "sharafaadeleke",
+        "password": "kehinde",
+        "status": "irete okanran   ,okunbo , ogun  , ebo esha",
+        "ikita": "irete meji   , okunbo , ejo , ebo akoru",
+        "orukoOrisha":"oshokorede "
+    },
+
+   {
+        "id": 107,
+        "username": "abosede",
+        "password": "wemimo",
+        "status": "otura idi, ire aje, ebo akoru",
+        "ikita": "irosun otura, ire aiku ,adimu orisa",
+        "orukoOrisha":"oshogbemi"
+    },
+
+   {
+        "id": 108,
+        "username": "oladimeji",
+        "password": "omotayo",
+        "status": "idi owonrin, ire  aiku, ebo akoru",
+        "ikita": "ejiogbe, okunbo, iku, ebo akoru",
+        "orukoOrisha":"sangokolade"
+    },
+
+   {
+        "id": 109,
+        "username": "rubenakinloye",
+        "password": "rachealayoni",
+        "status": "ose meji, okunbo, ire aiku, ebo akoru",
+        "ikita": "ogunda oyeku, ire aiku, ebo esha",
+        "orukoOrisha":"oshogbemi"
+    },
+
+   {
+        "id": 110,
+        "username": "adeola",
+        "password": "fausa",
+        "status": "iwori irosun, ire, aiku, adimu ifa",
+        "ikita": "irosun oturupon, okunbo, ebo esha",
+        "orukoOrisha":"osunbamiwo"
+    },
+
+   {
+        "id": 111,
+        "username": "kolawolesheu",
+        "password": "hasanatu",
+        "status": "iwori idi, ire aje, ebo akoru",
+        "ikita": "ofun iwori, okunbo, aarun, adimu ifa",
+        "orukoOrisha":"oshoniyi"
+    },
+
+   {
+        "id": 112,
+        "username": "babatunde",
+        "password": "hafusat",
+        "status": "osa irete, ire aje, ebo akoru",
+        "ikita": "okanran oturupon, okunbo, aarun, adimu ori",
+        "orukoOrisha":"efunbowale"
+    },
+
+    {
+        "id": 113,
+        "username": "usmanolamilekan",
+        "password": "idowu",
+        "status": "irete idi, ire aje, ebo akoru",
+        "ikita": "eji ogbe, ire aiku, adimu ori",
+        "orukoOrisha":"oshogbadebo"
+    },
+
+    {
+        "id": 114,
+        "username": "okiki",
+        "password": "halimatu",
+        "status": "oyeku ogunda, okunbo, aarun, ebo akoru",
+        "ikita": "ogunda ogbe, ire aiku, ebo akoru",
+        "orukoOrisha":"oshoyemi"
+    },
+
+   {
+        "id": 115,
+        "username": "esopele",
+        "password": "ifadunke",
+        "status": "irete otura, ire aiku, ebo akoru",
+        "ikita": "ogunda osa, ire aje, ebo esha",
+        "orukoOrisha":"egbeyemi"
+    },
+
+   {
+        "id": 116,
+        "username": "ibrahim",
+        "password": "ifeoma",
+        "status": "ogbe irete, ire aje, ebo esha",
+        "ikita": "owonrin idi, okunbo, aarun, ebo esha",
+        "orukoOrisha":"osunmayowa"
+    },
+
+    {
+        "id": 117,
+        "username": "ronke",
+        "password": "kehinde",
+        "status": "ogbe owonrin, ire aiku, ebo esha",
+        "ikita": "ejiogbe, okunbo, ogun, ebo esha",
+        "orukoOrisha":"efunshola"
+    },
+
+   {
+        "id": 118,
+        "username": "ganiyu",
+        "password": "ojuolape",
+        "status": "oturupon ogunda, ire isegun, adimu ori",
+        "ikita": "ika otura, ire aiku, ebo akoru",
+        "orukoOrisha":"osungbemi"
+    },
+
+   {
+        "id": 119,
+        "username": "shairudeenabiodun",
+        "password": "mujeedat",
+        "status": "irete ogbe, ire aje, adimu ifa",
+        "ikita": "oturupon iwori, ire aje, adimu ori",
+        "orukoOrisha":"oshoyinka"
+    },
+
+   {
+        "id": 120,
+        "username": "bolarinwa",
+        "password": "adetutuserifat",
+        "status": "irete ogbe, ire igbalaese, adimu ori",
+        "ikita": "idi ikanran, ire aiku, ebo esha",
+        "orukoOrisha":"oshokemi"
+    },
+
+   {
+        "id": 121,
+        "username": "abidemi",
+        "password": "ramatu",
+        "status": "otura okanran, ire aje, ebo akoru",
+        "ikita": "okanran oturupon, ire isegun, adimu eegun",
+        "orukoOrisha":"osuntunmininu"
+    },
+
+   {
+        "id": 122,
+        "username": "ifatunmininuadebanjo",
+        "password": "olubunmi",
+        "status": "irosun ose, okunbo, aarun, ebo esha",
+        "ikita": "ose owonrin, okunbo, iku ,adimu ifa",
+        "orukoOrisha":"oshogbemi"
+    },
+
+   {
+        "id": 123,
+        "username": "ijo",
+        "password": "ijoko",
+        "status": "irete owonrin, ire isegun, ebo esha",
+        "ikita": "eji ogbe, okunbo, ejo, adimu orisa",
+        "orukoOrisha":"NA"
+    }
+
+
+]

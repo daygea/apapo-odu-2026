@@ -1,360 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apapo Odu Ifa Initiates</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <style>
-        body {
-            padding: 20px;
-            margin: 0; /* Remove default margin */
-            height: 100vh; /* Make the body cover the entire viewport height */
-            background-image: url('img/620088.jpg'); /* Replace with your image URL */
-            background-size: cover; /* Ensure the image covers the entire screen */
-            background-position: center; /* Center the image */
-            background-repeat: no-repeat; /* Prevent the image from repeating */
-            background-attachment: fixed; /* Keeps the background fixed during scrolling */
-            color: white; /* Makes text readable if the image is dark */
-        }
-        .hidden {
-            display: none;
-        }
-        #userSection {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 50vh; /* Full viewport height */
-            text-align: center;
-        }
-        .logout-btn {
-            float: right; /* Moves the button to the right */
-            margin-bottom: 10px; /* Adds spacing between the button and other elements */
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apapo Odu Ifa Initiates</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+  body {
+    padding: 20px; margin: 0; min-height: 100vh;
+    background-image: url('img/620088.jpg');
+    background-size: cover; background-position: center;
+    background-repeat: no-repeat; background-attachment: fixed;
+    color: #fff;
+  }
+  .hidden { display: none; }
+  #userSection {
+    display: flex; flex-direction: column; justify-content: center;
+    align-items: center; min-height: 50vh; text-align: center;
+  }
+  .logout-btn { float: right; margin-bottom: 10px; }
+  .year-select { max-width: 120px; display: inline-block; }
+  .up { text-transform: uppercase; }
+  #yearBar { margin: 10px 0 25px; }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="text-center">Apapo Odu Ifa Initiates 2026</h1>
+<div class="container">
 
-        <!-- Login Section -->
-        <div id="loginSection">
-            <h3><center>Login to view your Odu Ifa</center></h3>
-            <form onsubmit="handleLogin(event)">
-                <div class="form-group">
-                    <label for="loginUsername">Username</label>
-                    <input type="text" id="loginUsername" class="form-control" placeholder="Enter Username" required>
-                </div>
-                <div class="form-group">
-                    <label for="loginPassword">Password</label>
-                    <input type="password" id="loginPassword" class="form-control" placeholder="Enter Password" required>
-                </div>
-                <button type="submit" class="btn btn-primary btn-block">Login</button>
-            </form>
-            <div style="color: white;" id="loginMessage" class="mt-2"></div>
-        </div>
+  <h1 class="text-center" id="pageTitle">Apapo Odu Ifa Initiates</h1>
 
-        <div id="profileSelection" class="mt-3"></div>
+  <div id="yearBar" class="text-center">
+    <label for="yearSelect">Year:</label>
+    <select id="yearSelect" class="form-control year-select" onchange="onYearChange(this.value)"></select>
+  </div>
 
-        <!-- Logged-In User Section -->
-        <div id="userSection" class="hidden">
-            <h3>INITIATE DETAILS</h3>
-            <p><b>NAME: <span id="userUsername" style="text-transform: uppercase;"></span> OMO <span id="userPassword" style="text-transform: uppercase;"></span></b></p>
-            <p><b>ODU IFA: <span id="userStatus" style="text-transform: uppercase;"></span></b> </p>
-            <p><b>IKITA IFA: <span id="userIkita" style="text-transform: uppercase;"></span></b></p>
-            <p><b>ORUKO ORISHA: <span id="userOrukoOrisha" style="text-transform: uppercase;"></span></b></p>
-            <a class="btn btn-default" target="_blank" href="https://orirun.com">Click to view the full message here</a><br/><br/>
-            <button onclick="logout()" class="btn btn-warning">Logout</button>
-        </div>
+  <!-- Login -->
+  <div id="loginSection">
+    <h3 class="text-center">Login to view your Odu Ifa</h3>
+    <form onsubmit="handleLogin(event)">
+      <div class="form-group">
+        <label for="loginUsername">Username</label>
+        <input type="text" id="loginUsername" class="form-control" placeholder="Enter Username" required>
+      </div>
+      <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" class="form-control" placeholder="Enter Password" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </form>
+    <div style="color:white" id="loginMessage" class="mt-2"></div>
+  </div>
 
-        <!-- Administrator Section -->
-        <div id="adminSection" class="hidden">
+  <div id="profileSelection" class="mt-3 text-center"></div>
 
-            <h3>Administrator Dashboard</h3>
-            <a class="btn btn-default" target="_blank" href="https://orirun.com">View the full messages here</a> <button onclick="logout()" class="btn btn-warning logout-btn">Logout</button>
-            <div class="form-group">
-                <input type="text" id="searchInput" class="form-control" placeholder="Search by name or mother's name" oninput="handleSearch()">
-            </div>
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>S/N</th>
-                        <th>Name</th>
-                        <th>Mother</th>
-                        <th>Odu Ifa</th>
-                        <th>Ikita Ifa</th>
-                        <th>Oruko</th>
-                    </tr>
-                </thead>
-                <tbody id="userTableBody"></tbody>
-            </table>
-            <!-- Pagination Controls -->
-            <div id="paginationControls" class="text-center mt-3"></div>
+  <!-- Initiate details -->
+  <div id="userSection" class="hidden">
+    <h3>INITIATE DETAILS</h3>
+    <p><b>NAME: <span class="up" id="userUsername"></span> OMO <span class="up" id="userPassword"></span></b></p>
+    <p><b>ODU IFA: <span class="up" id="userStatus"></span></b></p>
+    <p><b>IKITA IFA: <span class="up" id="userIkita"></span></b></p>
+    <p><b>ORUKO ORISHA: <span class="up" id="userOrukoOrisha"></span></b></p>
+    <a class="btn btn-default" target="_blank" href="https://orirun.com">Click to view the full message here</a><br><br>
+    <button onclick="logout()" class="btn btn-warning">Logout</button>
+  </div>
 
-        </div>
+  <!-- Admin -->
+  <div id="adminSection" class="hidden">
+    <h3>Administrator Dashboard — <span id="adminYear"></span></h3>
+    <a class="btn btn-default" target="_blank" href="https://orirun.com">View the full messages here</a>
+    <button onclick="logout()" class="btn btn-warning logout-btn">Logout</button>
+    <div class="form-group">
+      <input type="text" id="searchInput" class="form-control"
+             placeholder="Search by name, mother's name, Odu Ifa…" oninput="handleSearch()">
     </div>
+    <table class="table table-bordered">
+      <thead>
+        <tr><th>S/N</th><th>Name</th><th>Mother</th><th>Odu Ifa</th><th>Ikita Ifa</th><th>Oruko</th></tr>
+      </thead>
+      <tbody id="userTableBody"></tbody>
+    </table>
+    <div id="paginationControls" class="text-center mt-3"></div>
+  </div>
 
-    <!-- <script type="text/javascript" src="initiates.js"></script> -->
-    <script>
+</div>
 
-        let currentUser = null;
-        let currentPage = 1; // Current page
-        const usersPerPage = 20; // Number of users to display per page
-        let filteredUsers = []; // Stores filtered users after search
+<script>
+/* ------------------------------------------------------------------ */
+/*  State                                                              */
+/* ------------------------------------------------------------------ */
+const DATA_DIR = "data";
+const USERS_PER_PAGE = 20;
 
-        let users = [];
+let CONFIG = { years: [], siteTitle: "Apapo Odu Ifa Initiates" };
+let year = null;
+let users = [];
 
-        document.addEventListener("DOMContentLoaded", () => {
-            // Load users data from JSON
-            fetch("initiates.json")
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error("Failed to load users data");
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    users = data; // Assume the JSON is now an array
-                    console.log("Users data loaded successfully");
-                })
-                .catch(error => {
-                    console.error("Error loading users data:", error);
-                });
-        });
+let currentUser = null;
+let currentPage = 1;
+let isSearching = false;
+let filteredUsers = [];
 
-      // Login function
-        // function handleLogin(event) {
-        //     event.preventDefault();
-        //     const username = document.getElementById("loginUsername").value.trim();
-        //     const password = document.getElementById("loginPassword").value.trim();
-        //     const loginMessage = document.getElementById("loginMessage");
+/* ------------------------------------------------------------------ */
+/*  Boot                                                               */
+/* ------------------------------------------------------------------ */
+document.addEventListener("DOMContentLoaded", init);
 
-        //     // Find all users with the matching username and password
-        //     const matchingUsers = users.filter(
-        //         user => user.username.toLowerCase() === username.toLowerCase() && user.password === password
-        //     );
+async function init() {
+  try {
+    CONFIG = await getJSON(`${DATA_DIR}/config.json`);
+  } catch (e) {
+    return fatal("Could not load data/config.json", e);
+  }
 
-        //     if (matchingUsers.length === 1) {
-        //         // If exactly one match is found, login directly
-        //         currentUser = matchingUsers[0];
-        //         if (currentUser.username.toLowerCase() === "admin") {
-        //             showAdminDashboard();
-        //         } else {
-        //             showUserDetails();
-        //         }
-        //     } else if (matchingUsers.length > 1) {
-        //         // If multiple matches are found, prompt user to choose
-        //         loginMessage.textContent = "Multiple accounts found. Please select your profile.";
-        //         loginMessage.className = "text-warning";
+  const years = (CONFIG.years || []).map(String);
+  if (!years.length) return fatal("No years listed in data/config.json");
 
-        //         const profileSelection = document.getElementById("profileSelection");
-        //         profileSelection.innerHTML = ""; // Clear any previous options
-        //         matchingUsers.forEach(user => {
-        //             const option = document.createElement("button");
-        //             option.className = "btn btn-danger btn-md my-1";
-        //             option.textContent = `Odu Ifa - ${user.status}, Oruko Orisha - (${user.orukoOrisha})`; // Display details to help user identify
-        //             option.onclick = () => {
-        //                 currentUser = user;
-        //                 if (user.username.toLowerCase() === "admin") {
-        //                     showAdminDashboard();
-        //                 } else {
-        //                     showUserDetails();
-        //                 }
-        //             };
-        //             profileSelection.appendChild(option);
-        //         });
-        //     } else {
-        //         // If no match is found
-        //         loginMessage.textContent = "Invalid username or password.";
-        //         loginMessage.className = "text-danger";
-        //     }
+  const fromUrl = new URLSearchParams(location.search).get("year");
+  const startYear = years.includes(fromUrl)
+    ? fromUrl
+    : (years.includes(String(CONFIG.defaultYear)) ? String(CONFIG.defaultYear) : years[years.length - 1]);
 
-        //     document.getElementById("loginUsername").value = "";
-        //     document.getElementById("loginPassword").value = "";
-        // }
+  populateYearSelect(years, startYear);
+  await loadYear(startYear);
+}
 
-        function handleLogin(event) {
-            event.preventDefault();
-            const username = document.getElementById("loginUsername").value.trim();
-            const password = document.getElementById("loginPassword").value.trim();
-            const loginMessage = document.getElementById("loginMessage");
+function populateYearSelect(years, selected) {
+  document.getElementById("yearSelect").innerHTML = years
+    .map(y => `<option value="${esc(y)}"${y === selected ? " selected" : ""}>${esc(y)}</option>`)
+    .join("");
+}
 
-            // Find all users with the matching username and password
-            const matchingUsers = users.filter(
-                user => user.username.toLowerCase() === username.toLowerCase() && user.password === password
-            );
+async function loadYear(y) {
+  const wasAdmin = currentUser && currentUser.isAdmin;
+  year = y;
+  try {
+    users = await getJSON(`${DATA_DIR}/initiates-${y}.json`);
+  } catch (e) {
+    return fatal(`Could not load initiates for ${y}`, e);
+  }
 
-            if (matchingUsers.length === 1) {
-                // If exactly one match is found, log in directly
-                currentUser = matchingUsers[0];
-                if (currentUser.username.toLowerCase() === "admin") {
-                    showAdminDashboard();
-                } else {
-                    showUserDetails();
-                }
-            } else if (matchingUsers.length > 1) {
-                // If multiple matches are found, prompt user to choose
-                loginMessage.textContent = "Multiple accounts found. Please select your profile.";
-                loginMessage.className = "text-warning";
+  document.title = `${CONFIG.siteTitle} ${y}`;
+  document.getElementById("pageTitle").textContent = `${CONFIG.siteTitle} ${y}`;
 
-                const profileSelection = document.getElementById("profileSelection");
-                profileSelection.innerHTML = ""; // Clear any previous options
+  // Keep the URL shareable / bookmarkable
+  const url = new URL(location);
+  url.searchParams.set("year", y);
+  history.replaceState(null, "", url);
 
-                matchingUsers.forEach(user => {
-                    const option = document.createElement("button");
-                    option.className = "btn btn-warning btn-lg my-1";
-                    option.textContent = `${user.orukoOrisha} - ${user.status} `; // Show identifiable details
-                    option.onclick = () => {
-                        currentUser = user;
-                        profileSelection.innerHTML = ""; // Hide profile selection after choosing
-                        loginMessage.textContent = ""; // Clear any warning messages
+  resetUI();
+  if (wasAdmin) {                       // admins stay logged in across years
+    currentUser = { username: CONFIG.admin.username, isAdmin: true };
+    showAdminDashboard();
+  }
+}
 
-                        if (user.username.toLowerCase() === "admin") {
-                            showAdminDashboard();
-                        } else {
-                            showUserDetails();
-                        }
-                    };
-                    profileSelection.appendChild(option);
-                });
-            } else {
-                // If no match is found
-                loginMessage.textContent = "Invalid username or password.";
-                loginMessage.className = "text-danger";
-            }
+function onYearChange(y) {
+  if (y !== year) loadYear(y);
+}
 
-            document.getElementById("loginUsername").value = "";
-            document.getElementById("loginPassword").value = "";
-        }
+/* ------------------------------------------------------------------ */
+/*  Login                                                              */
+/* ------------------------------------------------------------------ */
+function handleLogin(event) {
+  event.preventDefault();
+  const username = document.getElementById("loginUsername").value.trim();
+  const password = document.getElementById("loginPassword").value.trim();
+  const msg = document.getElementById("loginMessage");
 
+  // 1. Admin (independent of year)
+  const a = CONFIG.admin;
+  if (a && username.toLowerCase() === String(a.username).toLowerCase() && password === a.password) {
+    currentUser = { username: a.username, isAdmin: true };
+    clearLoginForm();
+    return showAdminDashboard();
+  }
 
+  // 2. Initiate — case-insensitive on both fields
+  const needleUser = username.toLowerCase();
+  const needlePass = password.toLowerCase();
+  const matches = users.filter(u =>
+    String(u.username).toLowerCase() === needleUser &&
+    String(u.password).toLowerCase() === needlePass
+  );
 
+  if (matches.length === 1) {
+    currentUser = matches[0];
+    showUserDetails();
+  } else if (matches.length > 1) {
+    msg.textContent = "Multiple accounts found. Please select your profile.";
+    msg.className = "text-warning";
+    renderProfileChoices(matches);
+  } else {
+    msg.textContent = "Invalid username or password.";
+    msg.className = "text-danger";
+  }
+  clearLoginForm();
+}
 
-        // Show user details
-        function showUserDetails() {
-            document.getElementById("loginSection").classList.add("hidden");
-            document.getElementById("userSection").classList.remove("hidden");
+function renderProfileChoices(matches) {
+  const box = document.getElementById("profileSelection");
+  box.innerHTML = "";
+  matches.forEach(u => {
+    const btn = document.createElement("button");
+    btn.className = "btn btn-warning btn-lg my-1 btn-block";
+    btn.textContent = `${u.orukoOrisha} — ${u.status}`;
+    btn.onclick = () => {
+      currentUser = u;
+      box.innerHTML = "";
+      document.getElementById("loginMessage").textContent = "";
+      showUserDetails();
+    };
+    box.appendChild(btn);
+  });
+}
 
-            document.getElementById("userUsername").textContent = currentUser.username;
-            document.getElementById("userPassword").textContent = currentUser.password;
-            document.getElementById("userStatus").textContent = currentUser.status;
-            document.getElementById("userIkita").textContent = currentUser.ikita;
-            document.getElementById("userOrukoOrisha").textContent = currentUser.orukoOrisha;
-        }
+/* ------------------------------------------------------------------ */
+/*  Views                                                              */
+/* ------------------------------------------------------------------ */
+function showUserDetails() {
+  hide("loginSection"); show("userSection");
+  document.getElementById("userUsername").textContent    = currentUser.username;
+  document.getElementById("userPassword").textContent    = currentUser.password;
+  document.getElementById("userStatus").textContent      = currentUser.status;
+  document.getElementById("userIkita").textContent       = currentUser.ikita;
+  document.getElementById("userOrukoOrisha").textContent = currentUser.orukoOrisha;
+}
 
-        // Show administrator dashboard
-        function showAdminDashboard() {
-            document.getElementById("loginSection").classList.add("hidden");
-            document.getElementById("adminSection").classList.remove("hidden");
+function showAdminDashboard() {
+  hide("loginSection"); hide("userSection"); show("adminSection");
+  document.getElementById("adminYear").textContent = year;
+  currentPage = 1; isSearching = false; filteredUsers = [];
+  document.getElementById("searchInput").value = "";
+  updateUserTable();
+}
 
-            updateUserTable();
-        }
+function logout() { resetUI(); }
 
-        // Update the user table with pagination
-        function updateUserTable() {
-            const userTableBody = document.getElementById("userTableBody");
-            const paginationControls = document.getElementById("paginationControls");
+function resetUI() {
+  currentUser = null;
+  currentPage = 1;
+  isSearching = false;
+  filteredUsers = [];
+  hide("userSection"); hide("adminSection"); show("loginSection");
+  document.getElementById("profileSelection").innerHTML = "";
+  document.getElementById("loginMessage").textContent = "";
+}
 
-            userTableBody.innerHTML = ""; // Clear table content
-            paginationControls.innerHTML = ""; // Clear pagination controls
+/* ------------------------------------------------------------------ */
+/*  Admin table                                                        */
+/* ------------------------------------------------------------------ */
+function updateUserTable() {
+  const tbody = document.getElementById("userTableBody");
+  const pag   = document.getElementById("paginationControls");
+  tbody.innerHTML = ""; pag.innerHTML = "";
 
-            // Use filteredUsers for displaying results, or all users if no search filter
-            const userEntries = filteredUsers.length > 0 ? filteredUsers : users;
-            const totalUsers = userEntries.length;
-            const totalPages = Math.ceil(totalUsers / usersPerPage);
+  const entries = isSearching ? filteredUsers : users;
+  const total = entries.length;
+  const totalPages = Math.max(1, Math.ceil(total / USERS_PER_PAGE));
 
-            // Ensure currentPage is within valid bounds
-            if (currentPage > totalPages) currentPage = totalPages;
-            if (currentPage < 1) currentPage = 1;
+  currentPage = Math.min(Math.max(currentPage, 1), totalPages);
 
-            // Determine the users to display on the current page
-            const startIndex = (currentPage - 1) * usersPerPage;
-            const endIndex = Math.min(startIndex + usersPerPage, totalUsers);
+  const start = (currentPage - 1) * USERS_PER_PAGE;
+  const end   = Math.min(start + USERS_PER_PAGE, total);
 
-            for (let i = startIndex; i < endIndex; i++) {
-                const user = userEntries[i];
-                const row = document.createElement("tr");
-                row.innerHTML = `
-                    <td>${i + 1}</td>
-                    <td style="">${user.username}</td>
-                    <td style="">${user.password}</td>
-                    <td style="text-transform: uppercase;">${user.status}</td>
-                    <td style="text-transform: uppercase;">${user.ikita}</td>
-                    <td style="text-transform: uppercase;">${user.orukoOrisha}</td>
-                `;
-                userTableBody.appendChild(row);
-            }
+  if (!total) {
+    tbody.innerHTML = `<tr><td colspan="6" class="text-center">No matching records.</td></tr>`;
+  }
 
-            // Create pagination controls
-            for (let i = 1; i <= totalPages; i++) {
-                const pageButton = document.createElement("button");
-                pageButton.textContent = i;
-                pageButton.className = `btn btn-sm ${i === currentPage ? "btn-primary" : "btn-default"} mx-1`;
-                pageButton.onclick = () => {
-                    currentPage = i;
-                    updateUserTable();
-                };
-                paginationControls.appendChild(pageButton);
-            }
-        }
+  for (let i = start; i < end; i++) {
+    const u = entries[i];
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${i + 1}</td>
+      <td>${esc(u.username)}</td>
+      <td>${esc(u.password)}</td>
+      <td class="up">${esc(u.status)}</td>
+      <td class="up">${esc(u.ikita)}</td>
+      <td class="up">${esc(u.orukoOrisha)}</td>`;
+    tbody.appendChild(tr);
+  }
 
+  // Prev / page numbers / Next
+  const addBtn = (label, page, disabled, active) => {
+    const b = document.createElement("button");
+    b.textContent = label;
+    b.className = `btn btn-sm ${active ? "btn-primary" : "btn-default"}`;
+    b.style.margin = "0 3px";
+    b.disabled = disabled;
+    b.onclick = () => { currentPage = page; updateUserTable(); };
+    pag.appendChild(b);
+  };
 
-        // Handle search functionality
-        function handleSearch() {
-            const searchInput = document.getElementById("searchInput").value.trim().toLowerCase();
+  addBtn("« Prev", currentPage - 1, currentPage === 1, false);
+  for (let p = 1; p <= totalPages; p++) addBtn(p, p, false, p === currentPage);
+  addBtn("Next »", currentPage + 1, currentPage === totalPages, false);
+}
 
-            if (searchInput === "") {
-                filteredUsers = []; // Clear the filter if the search box is empty
-            } else {
-                filteredUsers = users.filter(user => {
-                    return (
-                        user.username.toLowerCase().includes(searchInput) ||
-                        user.password.toLowerCase().includes(searchInput) ||
-                        user.status.toLowerCase().includes(searchInput) ||
-                        user.ikita.toLowerCase().includes(searchInput) ||
-                        user.orukoOrisha.toLowerCase().includes(searchInput)
-                    );
-                });
-            }
+function handleSearch() {
+  const q = document.getElementById("searchInput").value.trim().toLowerCase();
+  if (!q) {
+    isSearching = false;
+    filteredUsers = [];
+  } else {
+    isSearching = true;
+    const fields = ["username", "password", "status", "ikita", "orukoOrisha"];
+    filteredUsers = users.filter(u =>
+      fields.some(k => String(u[k] || "").toLowerCase().includes(q))
+    );
+  }
+  currentPage = 1;
+  updateUserTable();
+}
 
-            currentPage = 1; // Reset to the first page of filtered results
-            updateUserTable();
-        }
+/* ------------------------------------------------------------------ */
+/*  Helpers                                                            */
+/* ------------------------------------------------------------------ */
+async function getJSON(url) {
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText} — ${url}`);
+  return res.json();
+}
 
-
-        // Add a new account
-        function addNewAccount(event) {
-            event.preventDefault();
-
-            const username = document.getElementById("newUsername").value.trim();
-            const password = document.getElementById("newPassword").value.trim();
-            const status = document.getElementById("newStatus").value.trim();
-
-            if (users.some(user => user.username.toLowerCase() === username.toLowerCase())) {
-                alert("Username already exists. Please choose a different username.");
-                return;
-            }
-
-            users.push({ username, password, status });
-            alert("Account created successfully!");
-
-            document.getElementById("newUsername").value = "";
-            document.getElementById("newPassword").value = "";
-            document.getElementById("newStatus").value = "";
-
-            updateUserTable();
-        }
-
-
-        // Logout function
-        function logout() {
-            currentUser = null;
-            document.getElementById("loginSection").classList.remove("hidden");
-            document.getElementById("userSection").classList.add("hidden");
-            document.getElementById("adminSection").classList.add("hidden");
-            location.reload();
-        }
-    </script>
+function clearLoginForm() {
+  document.getElementById("loginUsername").value = "";
+  document.getElementById("loginPassword").value = "";
+}
+function show(id) { document.getElementById(id).classList.remove("hidden"); }
+function hide(id) { document.getElementById(id).classList.add("hidden"); }
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
+}
+function fatal(msg, err) {
+  if (err) console.error(err);
+  document.getElementById("loginMessage").textContent = msg;
+  document.getElementById("loginMessage").className = "text-danger";
+}
+</script>
 </body>
 </html>
