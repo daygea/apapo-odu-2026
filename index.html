@@ -139,7 +139,7 @@
     <p><b>NAME: <span class="up" id="userUsername"></span> OMO <span class="up" id="userPassword"></span></b></p>
     <p><b>ODU IFA: <span class="up" id="userStatus"></span></b></p>
     <p><b>IKITA IFA: <span class="up" id="userIkita"></span></b></p>
-    <p><b>ORUKO ORISHA: <span class="up" id="userOrukoOrisha"></span></b></p>
+    <p><b>ORUKO & ORISHA: <span class="up" id="userOrukoOrisha"></span></b></p>
     <a class="btn btn-default" target="_blank" href="https://orirun.com">Click to view the full message here</a><br><br>
     <button onclick="logout()" class="btn btn-warning">Logout</button>
   </div>
@@ -155,7 +155,7 @@
     </div>
     <table class="table admin-table">
       <thead>
-        <tr><th>S/N</th><th>Name</th><th>Mother</th><th>Odu Ifa</th><th>Ikita Ifa</th><th>Oruko</th></tr>
+        <tr><th>S/N</th><th>Name</th><th>Mother</th><th>Odu Ifa</th><th>Ikita Ifa</th><th>Oruko & Orisha</th></tr>
       </thead>
       <tbody id="userTableBody"></tbody>
     </table>
@@ -355,7 +355,7 @@ function updateUserTable() {
       <td data-label="Mother">${esc(u.password)}</td>
       <td data-label="Odu Ifa"  class="up">${esc(u.status)}</td>
       <td data-label="Ikita Ifa" class="up">${esc(u.ikita)}</td>
-      <td data-label="Oruko"    class="up">${esc(u.orukoOrisha)}</td>`;
+      <td data-label="Oruko & Orisha"    class="up">${esc(u.orukoOrisha)}</td>`;
     tbody.appendChild(tr);
   }
 
